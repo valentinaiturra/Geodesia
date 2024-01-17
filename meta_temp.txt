@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="../../styles.css" type="text/css" />
+  <link rel="stylesheet" href="../tab-panel.css" type="text/css" />
+  <script language="JavaScript" type="text/javascript" src="../tab-panel6.js">
+  </script>
+</head>
+
+<meta name="description" content="Nevada Geodetic Lab">
+<title>Nevada Geodetic Laboratory - Station Page for UBE1</title>
+
+<style>
+   p {text-indent:10px;}
+</style>
+
+<div id="masthead">
+<img src="/images/magnet-station-header.gif" alt="MAGNET GPS Station - Photo by Geoff Blewitt" />
+</div>
+<div id="globalNav">
+   <a href="/index.php">| Home </a> <a href="/NGLStationPages/GlobalStationList">| Browse Global Station List</a> <a href="/NGLStationPages/RapidStationList">| Browse Rapid Station List</a> <a href="/NGLStationPages/UltraStationList">| Browse Ultra Rapid Station List</a> <a href="/NGLStationPages/gpsnetmap/GPSNetMap.html">| Map Browse</a> <a href="/Acknowledgements.php">| Acknowledgements |</a>
+</div>
+
+
+<div id="content2">
+
+<table>
+<tr>
+<td colspan="2" align="left">
+
+
+
+<table cellpadding="5">
+<tr>
+<td valign="top">
+<p>
+<h1>Station ID : UBE1</h1>
+</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+   <h2>Station operator information from: <a href="/NGLStationPages/attributions/UBE1.atr"><u>RINEX headers</u></a> </h2>
+</td>
+</tr>
+
+
+<tr>
+<td>
+When using products from this system please cite 
+<a href="https://eos.org/project-updates/harnessing-the-gps-data-explosion-for-interdisciplinary-science?utm_source=rss&utm_medium=rss&utm_content=harnessing-the-gps-data-explosion-for-interdisciplinary-science">Blewitt et al., (2018)</a> for the processing plus also the citation for the original data.
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+   <h3><u>Coordinates</u>: </h3>
+   <h4>Latitude:  -18.890 degrees</h4>
+   <h4>Longitude: -48.317 degrees</h4>
+   <h4>Height:    791.748 meters</h4>
+   <br>
+</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+
+
+<tr>
+<td align="left">
+
+<table border="1" cellpadding="6">
+
+<tr>
+<td colspan="4" align="center"> 
+   <h3>Time Series Data</h3> 
+   <h5><i>(ascii text)</i></h5> 
+</td>
+</tr>
+
+<tr>
+<td colspan="4" align="center">
+   <h5><i>24 Hour Final Solutions</i></h5> 
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="left">
+   <h3> IGS14 </h3>
+</td>
+<td align="center">
+   <h4> <a href="/gps_timeseries/tenv3/IGS14/UBE1.tenv3">tenv3</a> or <a href="/gps_timeseries/tenv/IGS14/UBE1.tenv">tenv</a> </h4> 
+</td>
+<td align="center">
+   <h4> <a href="/gps_timeseries/txyz/IGS14/UBE1.txyz2">xyz</a></h4>
+</td>
+</tr>
+
+
+
+<tr>
+<td colspan="2" align="left">
+   <h3> SA </h3>
+</td>
+<td colspan="2" align="center">
+   <h4> <a href="/gps_timeseries/tenv3/plates/SA/UBE1.SA.tenv3">tenv3</a>  </h4>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td colspan="4" align="center"> 
+   <h5><i>5 Minute Final Solutions</i></h5> 
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="left">
+   <h3> IGS14 </h3>
+</td>
+<td colspan="2" align="center">
+   <h4> <a href="/gps_timeseries/kenv/UBE1/">kenv tar files for download</a></h4>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td colspan="4" align="center"> 
+   <h5><i>Quality Assurance (QA) Files</i></h5> 
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="left">
+   <h3> IGS14 </h3>
+</td>
+<td colspan="2" align="center">
+   <h4> <a href="/gps_timeseries/qa/UBE1.qa.gz">.qa.gz file download</a></h4>
+</td>
+</tr>
+
+
+
+<tr>
+<td colspan="4" align="center"> 
+   <h5><i>5 Minute Troposphere Solutions</i></h5> 
+</td>
+</tr>
+
+<tr>
+<td colspan="3" align="left">
+   <h3> Tot./Wet Zenith Delay, etc. </h3>
+</td>
+<td align="center">
+   <h4> <a href="/gps_timeseries/trop/UBE1/">tar file download</a></h4>
+</td>
+</tr>
+
+
+
+<tr>
+<td colspan="4" align="center"> 
+   <h5><i>New!:  Loading Predictions. <br> See this <a href="/gps_timeseries/README_tenv3load.txt">README file</a> for explanation.</i></h5> 
+</td>
+</tr>
+
+<tr>
+<td colspan="1" align="left">
+   <h3>IGS14</h3>
+</td>
+<td colspan="3" align="center">
+   <h4> <a href="/gps_timeseries/tenv3_loadpredictions/UBE1.tenv3">tenv3 file with extra columns</a></h4>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td colspan="4" align="center" >
+    <h4>Readme Files: </h4>
+     <a href="/gps_timeseries/README_tenv3.txt"><i>tenv3 format, </i></a> 
+     <a href="/gps_timeseries/README_tenv.txt"><i>tenv format, </i></a> 
+     <a href="/gps_timeseries/README_txyz2.txt"><i>xyz format, </i></a> 
+     <br>
+     <a href="/gps_timeseries/README_kenv.txt"><i>kenv format, </i></a> 
+     <a href="/gps_timeseries/README_trop2.txt"><i>trop format, </i></a> 
+     <a href="/gps_timeseries/QA.pdf"><i>QA file format, </i></a> 
+    <br>
+     <a href="/gps_timeseries/README_tenv3load.txt"><i>Loading triplet enhanced tenv3 files</i></a> 
+    <br>
+    (Note: When using the <a href="http://geodesy.unr.edu/MIDAS_release/README_MIDAS">MIDAS software</a> 
+    <br>
+    use the .tenv files linked above)
+</td>
+</tr>
+
+
+</table>
+
+</td>
+
+<td align="center" valign="top">
+<iframe 
+   width="400" 
+   height="400" 
+   frameborder="0" 
+   scrolling="no" 
+   marginheight="2" 
+   marginwidth="2" 
+   src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=-18.890++-48.317&amp;aq=&amp;sll=-18.890,-48.317&amp;sspn=0.058803,0.049782&amp;ie=UTF8&amp;t=m&amp;z=11&amp;ll=-18.890,-48.317&amp;output=embed">
+</iframe>
+
+<br>
+<br>
+
+
+<table border="1" cellpadding="6">
+<tr>
+   <th>
+   Nearest 4 Other Stations
+   </th>
+   <th>
+   Distance
+   </th>
+</tr>
+<tr>
+   <td>
+   <h4><a href="http://geodesy.unr.edu/NGLStationPages/stations/MGUB.sta">MGUB</a></h4>
+   </td>
+   <td>
+   <h4>   7.21 km</h4>
+   </td>
+</tr>
+<tr>
+   <td>
+   <h4><a href="http://geodesy.unr.edu/NGLStationPages/stations/MGMT.sta">MGMT</a></h4>
+   </td>
+   <td>
+   <h4>  85.49 km</h4>
+   </td>
+</tr>
+<tr>
+   <td>
+   <h4><a href="http://geodesy.unr.edu/NGLStationPages/stations/SPFR.sta">SPFR</a></h4>
+   </td>
+   <td>
+   <h4> 204.88 km</h4>
+   </td>
+</tr>
+<tr>
+   <td>
+   <h4><a href="http://geodesy.unr.edu/NGLStationPages/stations/MGRP.sta">MGRP</a></h4>
+   </td>
+   <td>
+   <h4> 232.34 km</h4>
+   </td>
+</tr>
+</table>
+
+</td>
+</table>
+
+<!-- ========================= begin tabbed-frame div ======================== -->
+
+<style>
+
+* {box-sizing: border-box}
+
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 17

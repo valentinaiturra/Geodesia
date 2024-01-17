@@ -1,0 +1,10 @@
+1. Se descargan datos de pull_NEVADA aproximando la zona a utilizar (29-33°S). Estos se encontrarán en la carpeta pulled_data.
+2. Poner la función estaciones en la carpeta pulled_data para que corte los datos necesarios. Se crea la carpeta Stations donde se encuentran los datos que si sirven ya cortados y el id_coords. Se elimina ROBL.txt ya que está vacío. Las demás estaciones que no se ocuparán se eliminan.
+3. Correr el modelo de trayectoria a partir del archivo example_editado.py [Recordar que deben estar los archivos id_coords_stations y cada una de las estaciones a utilizar en la misma carpeta]. Descargar los plots.
+4. Analizar los plots generados y descartar archivos irrelevantes. Se eliminan CER1 CTPC EMAT LNDS OVLL POR2 PVCA ROB1 TOLO. Se obtiene además el archivo datos_stations que contiene velocidades y errores.
+
+5. Repetir pasos anteriores para la zona de sudamerica estable. Utilizar la funcion estaciones modificada y eliminar datos vacíos [FORT MCLA PAST PLMS SALV].
+6. Correr modelo de trayectoria. Se eliminan BOMJ y MTBA por fallas de medición.
+7. Utilizar función sud_estable para recortar datos horizontales. Luego correr archivo inverso.py del que resulta [lon: -1.34310380e+02 lat: -1.89669422e+01  omega: 1.23512588e-01]
+8. Se corre el archivo directo.py de lo que resulra el archivo Resultados_velo con las velocidades.
+9. Con el archivo Resta.m se genera finalmente el archivo de mov_final.txt que tiene el cambio de coordenadas final.
